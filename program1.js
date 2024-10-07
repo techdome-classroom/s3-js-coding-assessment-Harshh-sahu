@@ -7,7 +7,7 @@ var isValid = function(input1) {
     const stack = [];
     const map = { ')': '(', '}': '{', ']': '[' };
 
-    for (let char of s) {
+    for (let char of input1) {
         if (map[char]) {
             const topElement = stack.length > 0 ? stack.pop() : '#';
             if (topElement !== map[char]) {
