@@ -4,7 +4,8 @@
     "description": "",
     "main": "program1.js",
     "scripts": {
-        "test": "mocha test1.js"
+        "test1": "mocha test1.js",
+        "test2": "mocha test2.js"
     },
     "devDependencies": {
         "mocha": "^9.1.3"
