@@ -13,7 +13,6 @@ var isValid = function(input1) {
         ']': '[' 
     };
 
-    // Loop through each character in the string
     for (let char of input1) {
         if (map[char]) {
             const topElement = stack.length > 0 ? stack.pop() : '#';
