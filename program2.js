@@ -21,12 +21,11 @@ var romanToInt = function(s) {
         if (i < s.length - 1 && romanMap[s[i]] < romanMap[s[i + 1]]) {
             result -= romanMap[s[i]];
         } else {
-            // Otherwise, add the current value
             result += romanMap[s[i]];
         }
     }
 
-    return result; // Return the computed integer value
+    return result; 
 };
 
 module.exports = { romanToInt };
