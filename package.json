@@ -11,7 +11,7 @@
     "author": "",
     "license": "ISC",
     "devDependencies": {
-        "mocha": "^10.2.0"
+        "mocha": "^10.7.3"
     },
     "dependencies": {
         "unit-test-techlens658---copy": "file:"
