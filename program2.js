@@ -1,4 +1,3 @@
-// program2.js
 
 /**
  * @param {string} s - Roman numeral string
