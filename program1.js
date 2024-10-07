@@ -3,7 +3,6 @@
  * @return {boolean}
  */
 var isValid = function(input1) {
-    // Stack to keep track of opening brackets
     const stack = [];
 
     const map = { 
