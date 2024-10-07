@@ -6,7 +6,6 @@ var isValid = function(input1) {
     // Stack to keep track of opening brackets
     const stack = [];
 
-    // Mapping of closing brackets to their corresponding opening brackets
     const map = { 
         ')': '(', 
         '}': '{', 
