@@ -15,17 +15,13 @@ var isValid = function(input1) {
 
     // Loop through each character in the string
     for (let char of input1) {
-        // If the character is a closing bracket
         if (map[char]) {
-            // Pop the top element from the stack (or use a placeholder if the stack is empty)
             const topElement = stack.length > 0 ? stack.pop() : '#';
 
-            // If the top element doesn't match the corresponding opening bracket, return false
             if (topElement !== map[char]) {
                 return false;
             }
         } else {
-            // If the character is an opening bracket, push it onto the stack
             stack.push(char);
         }
     }
