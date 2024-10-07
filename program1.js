@@ -3,7 +3,7 @@
  * @return {boolean}
  */
 // program1.js
-var isValid = function(s) {
+var isValid = function(input1) {
     const stack = [];
     const map = { ')': '(', '}': '{', ']': '[' };
 
